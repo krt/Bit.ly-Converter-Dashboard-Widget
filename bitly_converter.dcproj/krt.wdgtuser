@@ -23,15 +23,15 @@
 		</array>
 	</dict>
 	<key>ContentViewType</key>
-	<integer>5</integer>
+	<integer>0</integer>
 	<key>Dashboard Widget Prefs</key>
 	<dict>
 		<key>id</key>
-		<string>5a0ded1f065cb141</string>
+		<string>5af53906225cb141</string>
 		<key>in-layer</key>
 		<true/>
 		<key>path</key>
-		<string>/private/var/folders/o5/o5kmyRqrEYyTK3z0HE9-MU+++TI/-Tmp-/Dashcode/.テストウィジェット.dcprojmTcy2r/テストウィジェット.dcproj/project.wdgt/</string>
+		<string>/private/var/folders/o5/o5kmyRqrEYyTK3z0HE9-MU+++TI/-Tmp-/Dashcode/.bitly_converter.dcproj3CC6g9/bitly_converter.dcproj/project.wdgt/</string>
 		<key>percent-offset-x</key>
 		<integer>0</integer>
 		<key>percent-offset-y</key>
@@ -73,7 +73,7 @@
 		</array>
 	</dict>
 	<key>MainWindowFrame</key>
-	<string>72 84 1169 791 0 0 1440 878 </string>
+	<string>70 84 1169 791 0 0 1440 878 </string>
 	<key>NavigatorSplitViewGeometry</key>
 	<dict>
 		<key>ContentSplitViewConfig</key>
@@ -109,7 +109,9 @@
 	<key>Objects view last selections</key>
 	<array>
 		<array>
-			<integer>5</integer>
+			<integer>0</integer>
+			<integer>0</integer>
+			<integer>3</integer>
 		</array>
 	</array>
 	<key>Opened Steps</key>

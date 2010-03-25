@@ -5,9 +5,12 @@
  code generator otherwise the changes will be lost.
  */
 var dashcodePartSpecs = {
+    "clearbtn": { "creationFunction": "CreateGlassButton", "onclick": "cleartxt", "text": "clear" },
+    "copybtn": { "creationFunction": "CreateGlassButton", "onclick": "copy", "text": "Copy" },
     "credit_texxt": { "creationFunction": "CreateText", "text": "credit" },
     "done": { "creationFunction": "CreateGlassButton", "onclick": "showFront", "text": "完了" },
     "glassbutton": { "creationFunction": "CreateGlassButton", "onclick": "convert", "text": "convert" },
     "helloText": { "creationFunction": "CreateText", "text": "title_text" },
-    "info": { "backgroundStyle": "black", "creationFunction": "CreateInfoButton", "foregroundStyle": "white", "frontID": "front", "onclick": "showBack" }
+    "info": { "backgroundStyle": "black", "creationFunction": "CreateInfoButton", "foregroundStyle": "white", "frontID": "front", "onclick": "showBack" },
+    "outtxt": { "creationFunction": "CreateText", "text": "outtxt_text" }
 };

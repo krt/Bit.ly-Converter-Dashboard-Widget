@@ -7,8 +7,11 @@
 */
 
 var localizedStrings = {
+    "clear": "clear",
     "convert": "convert",
+    "Copy": "Copy",
     "credit": "ver 1.0 Masato Yamaguchi",
+    "outtxt_text": "null",
     "title_text": "bit.ly converter",
     "完了": "Done"
 };

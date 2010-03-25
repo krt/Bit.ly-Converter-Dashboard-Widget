@@ -11,6 +11,7 @@
 function load()
 {
     dashcode.setupParts();
+    outtxt.innerText = '';
 }
 
 //
@@ -125,10 +126,10 @@ function convert(event)
 function myOnLoad(req)
 {
     var resUrl = '';
+    var outeku;
     if(req.status == 200)
     {
         var obj = eval('(' + req.responseText + ')');
-        alert(obj);
         for(var item in obj.results)
         {
             if(!obj.results[item].errorCode){
@@ -137,6 +138,20 @@ function myOnLoad(req)
                 resUrl = 'error!!';
             }
         }
-        outtxt.value = resUrl;
+        outeku = outtxt;
+        outtxt.innerText = resUrl;
     }
+}
+
+function copy(event)
+{
+    if (window.widget){
+      widget.system("/bin/echo -n '"+outtxt.innerText+"' | /usr/bin/pbcopy", null);
+    }
+}
+
+
+function cleartxt(event)
+{
+    intxt.value = '';
 }
